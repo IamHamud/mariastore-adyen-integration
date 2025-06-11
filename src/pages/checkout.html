@@ -1,0 +1,45 @@
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Checkout – MariaStore</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="../css/style.css" />
+
+  <!-- Adyen Web CSS (NO integrity/crossorigin) -->
+  <link rel="stylesheet"
+        href="https://checkoutshopper-test.adyen.com/checkoutshopper/sdk/5.53.0/adyen.css" />
+
+  <!-- Adyen Web JS (NO integrity/crossorigin) -->
+  <script src="https://checkoutshopper-test.adyen.com/checkoutshopper/sdk/5.53.0/adyen.js"></script>
+</head>
+
+</head>
+<body class="bg-white text-gray-800">
+
+  <!-- NAVBAR (reuse your navbar if needed) -->
+  <header class="flex justify-between items-center px-6 py-4 border-b">
+    <div class="text-xl font-bold">MariaStore</div>
+    <div class="flex items-center space-x-4">
+      <i data-feather="search"></i>
+      <i data-feather="user"></i>
+      <i data-feather="heart"></i>
+      <i data-feather="shopping-bag"></i>
+    </div>
+  </header>
+
+  <main class="max-w-2xl mx-auto py-12 px-4">
+    <h1 class="text-2xl font-bold mb-6">Checkout</h1>
+    <div id="cart-summary" class="mb-8">
+      <!-- You can populate cart summary details here with JS if you want -->
+    </div>
+
+    <!-- Adyen Drop-in container -->
+    <div id="dropin-container"></div>
+
+    <!-- Optionally, status messages -->
+    <div id="payment-status" class="mt-6"></div>
+  </main>
+
+  <script src="../js/checkout.js"></script>
+</body>
+</html>
