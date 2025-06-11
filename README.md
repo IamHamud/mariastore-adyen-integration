@@ -62,7 +62,7 @@ package.json
 ### 1. Clone this repo
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/mariastore-adyen-integration.git
+git clone https://github.com/IamHamud/mariastore-adyen-integration.git
 cd mariastore-adyen-integration
 ```
 
@@ -88,7 +88,7 @@ npm start
 
 ### 5. Run the frontend
 
-You can use **Live Server** (VS Code extension) or simply open `src/pages/checkout.html` directly in your browser.
+You can use **Live Server** (VS Code extension) or simply open `src/pages/index.html` directly in your browser & follow the payment process.
 
 > **Note:** Make sure to configure allowed origins and redirect URLs in your Adyen dashboard.
 
