@@ -34,29 +34,6 @@ Special thanks to the following brands and projects for their design, UI, and UX
 * CORS
 * dotenv
 
----
-
-## 🏗️ Project Structure
-
-```
-/src
-  /pages
-    checkout.html
-    success.html
-    failure.html
-  /js
-    checkout.js
-  /css
-    style.css
-server.js
-.env
-README.md
-.gitignore
-package.json
-```
-
----
-
 ## 🚀 Quick Start
 
 ### 1. Clone this repo
